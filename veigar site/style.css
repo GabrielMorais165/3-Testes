@@ -1,0 +1,50 @@
+* body{
+    background-color: rgb(84, 0, 133);
+    
+}
+h1{
+    color: beige;
+    font: normal 25 px times ;
+    
+}
+h2{
+    font: normal 20 times;
+   text-align: center;/*Coloca o texto em questao no centro da pagina*/
+    color: aliceblue;
+}
+p{font: normal 15px Times;
+    color: blanchedalmond;
+}
+    img{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ h3{
+        font: normal 20 times;
+        margin-left: auto;
+        margin-right: auto;
+        color: aliceblue;
+ }
+ div{
+    font: NORMAL 18PX TIMES;
+    color: aliceblue;   
+ }
+ ul{
+     font: normal 16px;
+     color: aliceblue;
+ }
+ a{
+     color: aliceblue;
+ }
+ button{
+     width: 100px;
+     height: 50px;
+     background-color: rgb(245, 142, 142);
+     border-radius: 25px;
+
+ }
+ 

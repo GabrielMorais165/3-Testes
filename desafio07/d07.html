@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Vamos ultilizar imagens dinamicas</h1>
+    <h2>Para ver se a Imagens esta mudando o seu tamanho,basta mudar o tamanho da janela do seu navegador </h2>
+   <picture>
+       <source media="(max-width:700px )" srcset="paisagem-p.png" type="image/png">
+       <source media="(max-width: 1000px )" srcset="paisagem-m.png" type="image/png">
+       <img src="paisagem-g.png" alt="">
+       <!--NUNCA SE ESQUECER DE TROCAR O MIN-WIDTH PARA MAX-WIDHT-->
+
+   </picture>
+</body>
+</html>
